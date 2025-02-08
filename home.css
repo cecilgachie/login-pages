@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: #fff;
+    padding: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.0.5);
+    transition: width 0.6s linear;
+    overflow-x: hidden;
+
+}
