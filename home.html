@@ -3,22 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <nav class="active" id="nav">
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">works</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
-        </ul>
-    
-    <button class="icon" id="toggle">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-    </button>
-    </nav>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html" data-page="home">Home</a></li>
+                <li><a href="works.html" data-page="works">Works</a></li>
+                <li><a href="about.html" data-page="about">About Us</a></li>
+                <li><a href="mailto:mwangimwangifrancis94@gmail.com">Hire Me</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div id="home" class="page active">
+                <h1>Welcome to Our Login Page Templates</h1>
+                <p>Discover a variety of beautifully designed login page templates that you can use for your projects. Whether you are looking for a simple, elegant design or something more complex, we have something for everyone.</p>
+                <p>Browse through our collection and find the perfect template that suits your needs. Click on the "Works" tab to see all the available templates.</p>
+                <div class="cta">
+                    <h2>Get Started</h2>
+                    <p>Ready to find the perfect login page template? Click the button below to explore our collection.</p>
+                    <a href="works.html" class="cta-button">Explore Templates</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="home.js"></script>
 </body>
 </html>
